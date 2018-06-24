@@ -18,7 +18,7 @@ BuildRequires:  python-setuptools
 Library to handle parsing BIND statistics XML into Python objects.
 
 %prep
-%setup -q -n PingdomLib-%{version}
+%setup -q -n pybindxml-%{version}
 %build
 %{__python} setup.py build
 
