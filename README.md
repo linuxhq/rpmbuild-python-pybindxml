@@ -22,7 +22,6 @@ To build the package follow the steps outlined below
     git clone https://github.com/linuxhq/rpmbuild-python-pybindxml.git ${tmp}
     mkdir -p ${tmp}/{SOURCES,SRPMS}
     spectool -g -C ${tmp}/SOURCES ${tmp}/SPECS/*.spec
-  1 # rpmbuild-python-pybindxml
 
     mock --clean \
          --root epel-${VERSION_ID}-$(uname -i)
